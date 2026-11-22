@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #100909;
+    color: #fff1e6;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 40px 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #1a1010;
+    border: 1px solid #8f2b16;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #4a160c;
+}
+
+header {
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 1px solid #8f2b16;
+}
+
+header h1 {
+    color: #ff5a1f;
+    margin-bottom: 5px;
+    text-shadow: 0 0 8px #ff3c00;
+}
+
+header p {
+    color: #d6b6a5;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #ffbd45;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #ff5722;
+}
+
+main {
+    padding: 30px;
+}
+
+.welcome {
+    background-color: #281714;
+    border-left: 3px solid #ffbd45;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #ff8a24;
+    margin-bottom: 12px;
+}
+
+.welcome p {
+    color: #e0c5b5;
+}
+
+#activities h2 {
+    border-bottom: 1px solid #71301e;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.activity {
+    padding: 18px 15px;
+    border-bottom: 1px solid #71301e;
+    transition: 0.2s;
+}
+
+.activity:hover {
+    background-color: #2b1713;
+}
+
+.activity h3 {
+    color: #ffbd45;
+    margin-bottom: 5px;
+}
+
+.activity p {
+    color: #d6b6a5;
+    margin-bottom: 8px;
+}
+
+.activity a {
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.activity a:hover {
+    color: #ffd166;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid #8f2b16;
+    color: #d6b6a5;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ffbd45;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff5722;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+}
